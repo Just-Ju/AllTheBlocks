@@ -7,8 +7,6 @@
 
 scoreboard objectives add mined_blocks dummy 
 scoreboard objectives modify mined_blocks displayname "Blocks Mined"
-scoreboard objectives add acacia_button minecraft.mined:minecraft.acacia_button 
-scoreboard objectives add acacia_door minecraft.mined:minecraft.acacia_door
 
 #A
 scoreboard objectives add acacia_button minecraft.mined:minecraft.acacia_button

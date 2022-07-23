@@ -2,12 +2,11 @@
  # blocks_mined.mcfunction
  # 
  #
- # Created by .
+ # Created by .Cammo&Ju
 ##
 #A
 execute as @a[scores={acacia_button=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={acacia_door=1..}] run scoreboard players add @s mined_blocks 1
-execute as @a[scores={acacia_fence=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={acacia_fence=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={acacia_fence_gate=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={acacia_leaves=1..}] run scoreboard players add @s mined_blocks 1
@@ -194,10 +193,10 @@ execute as @a[scores={crimson_nylium=1..}] run scoreboard players add @s mined_b
 execute as @a[scores={crimson_planks=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={crimson_pressure_plate=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={crimson_roots=1..}] run scoreboard players add @s mined_blocks 1
+execute as @a[scores={crimson_stem=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={crimson_sign=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={crimson_slab=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={crimson_stairs=1..}] run scoreboard players add @s mined_blocks 1
-execute as @a[scores={crimson_stem=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={crimson_trapdoor=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={crimson_wall_sign=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={crying_obsidian=1..}] run scoreboard players add @s mined_blocks 1
@@ -249,6 +248,10 @@ execute as @a[scores={dead_brain_coral_block=1..}] run scoreboard players add @s
 execute as @a[scores={dead_brain_coral_fan=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={dead_brain_coral_wall_fan=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={dead_bush=1..}] run scoreboard players add @s mined_blocks 1
+execute as @a[scores={dead_bubble_coral=1..}] run scoreboard players add @s mined_blocks 1
+execute as @a[scores={dead_bubble_coral_block=1..}] run scoreboard players add @s mined_blocks 1
+execute as @a[scores={dead_bubble_coral_fan=1..}] run scoreboard players add @s mined_blocks 1
+execute as @a[scores={dead_bubble_coral_wall_fan=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={dead_fire_coral=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={dead_fire_coral_block=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={dead_fire_coral_fan=1..}] run scoreboard players add @s mined_blocks 1
@@ -308,7 +311,6 @@ execute as @a[scores={ender_chest=1..}] run scoreboard players add @s mined_bloc
 execute as @a[scores={exposed_copper=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={exposed_cut_copper=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={exposed_cut_copper_slab=1..}] run scoreboard players add @s mined_blocks 1
-execute as @a[scores={exposed_cut_copper_stairs=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={exposed_cut_copper_stairs=1..}] run scoreboard players add @s mined_blocks 1
 #F
 execute as @a[scores={farmland=1..}] run scoreboard players add @s mined_blocks 1
@@ -525,7 +527,6 @@ execute as @a[scores={mud_bricks=1..}] run scoreboard players add @s mined_block
 execute as @a[scores={muddy_mangrove_roots=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={mushroom_stem=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={mycelium=1..}] run scoreboard players add @s mined_blocks 1
-execute as @a[scores={mycelium=1..}] run scoreboard players add @s mined_blocks 1
 #N
 execute as @a[scores={nether_brick_fence=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={nether_brick_slab=1..}] run scoreboard players add @s mined_blocks 1
@@ -543,7 +544,6 @@ execute as @a[scores={note_block=1..}] run scoreboard players add @s mined_block
 #O
 execute as @a[scores={oak_button=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={oak_door=1..}] run scoreboard players add @s mined_blocks 1
-execute as @a[scores={oak_fence=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={oak_fence=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={oak_fence_gate=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={oak_leaves=1..}] run scoreboard players add @s mined_blocks 1
@@ -589,6 +589,7 @@ execute as @a[scores={pink_banner=1..}] run scoreboard players add @s mined_bloc
 execute as @a[scores={pink_bed=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={pink_candle=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={pink_candle_cake=1..}] run scoreboard players add @s mined_blocks 1
+execute as @a[scores={pink_carpet=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={pink_concrete=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={pink_concrete_powder=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={pink_glazed_terracotta=1..}] run scoreboard players add @s mined_blocks 1
@@ -717,6 +718,7 @@ execute as @a[scores={red_mushroom_block=1..}] run scoreboard players add @s min
 execute as @a[scores={red_nether_brick_slab=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={red_nether_brick_stairs=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={red_nether_bricks=1..}] run scoreboard players add @s mined_blocks 1
+execute as @a[scores={red_nether_brick_wall=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={red_sand=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={red_sandstone=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={red_sandstone_slab=1..}] run scoreboard players add @s mined_blocks 1
@@ -805,7 +807,6 @@ execute as @a[scores={sticky_piston=1..}] run scoreboard players add @s mined_bl
 execute as @a[scores={stone=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={stone_brick_slab=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={stone_brick_stairs=1..}] run scoreboard players add @s mined_blocks 1
-execute as @a[scores={stone_brick_stairs=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={stone_brick_wall=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={stone_bricks=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={stone_button=1..}] run scoreboard players add @s mined_blocks 1
@@ -889,11 +890,9 @@ execute as @a[scores={waxed_oxidized_copper=1..}] run scoreboard players add @s 
 execute as @a[scores={waxed_oxidized_cut_copper=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={waxed_oxidized_cut_copper_slab=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={waxed_oxidized_cut_copper_stairs=1..}] run scoreboard players add @s mined_blocks 1
-execute as @a[scores={waxed_oxidized_cut_copper_stairs=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={waxed_weathered_copper=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={waxed_weathered_cut_copper=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={waxed_weathered_cut_copper_slab=1..}] run scoreboard players add @s mined_blocks 1
-execute as @a[scores={waxed_weathered_cut_copper_stairs=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={waxed_weathered_cut_copper_stairs=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={weeping_vines=1..}] run scoreboard players add @s mined_blocks 1
 execute as @a[scores={weeping_vines_plant=1..}] run scoreboard players add @s mined_blocks 1

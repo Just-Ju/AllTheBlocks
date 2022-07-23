@@ -25,7 +25,7 @@ execute as @a[scores={allium=1..}] run scoreboard players reset @s allium
 execute as @a[scores={amethyst_block=1..}] run scoreboard players reset @s amethyst_block 
 execute as @a[scores={amethyst_cluster=1..}] run scoreboard players reset @s amethyst_cluster 
 execute as @a[scores={ancient_debris=1..}] run scoreboard players reset @s ancient_debris 
-execute as @a[scores={andesite=1..}] run scoreboard players reset @s acacia_wood 
+execute as @a[scores={andesite=1..}] run scoreboard players reset @s andesite 
 execute as @a[scores={andesite_slab=1..}] run scoreboard players reset @s andesite_slab 
 execute as @a[scores={andesite_stairs=1..}] run scoreboard players reset @s andesite_stairs 
 execute as @a[scores={andesite_wall=1..}] run scoreboard players reset @s andesite_slab 
