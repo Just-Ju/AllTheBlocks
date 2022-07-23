@@ -2,7 +2,7 @@
  # block_reset.mcfunction
  # 
  #
- # Created by .
+ # Created by .Cammo&Ju
 ##
 #A
 execute as @a[scores={acacia_button=1..}] run scoreboard players reset @s acacia_button
@@ -13,6 +13,7 @@ execute as @a[scores={acacia_leaves=1..}] run scoreboard players reset @s acacia
 execute as @a[scores={acacia_log=1..}] run scoreboard players reset @s acacia_log
 execute as @a[scores={acacia_planks=1..}] run scoreboard players reset @s acacia_planks
 execute as @a[scores={acacia_pressure_plate=1..}] run scoreboard players reset @s acacia_pressure_plate
+execute as @a[scores={acacia_sapling=1..}] run scoreboard players reset @s acacia_sapling
 execute as @a[scores={acacia_sign=1..}] run scoreboard players reset @s acacia_sign
 execute as @a[scores={acacia_slab=1..}] run scoreboard players reset @s acacia_slab
 execute as @a[scores={acacia_stairs=1..}] run scoreboard players reset @s acacia_stairs
@@ -92,6 +93,7 @@ execute as @a[scores={blue_ice=1..}] run scoreboard players reset @s blue_ice
 execute as @a[scores={blue_orchid=1..}] run scoreboard players reset @s blue_orchid
 execute as @a[scores={blue_shulker_box=1..}] run scoreboard players reset @s blue_shulker_box
 execute as @a[scores={blue_stained_glass=1..}] run scoreboard players reset @s blue_stained_glass
+execute as @a[scores={blue_stained_glass_pane=1..}] run scoreboard players reset @s blue_stained_glass_pane
 execute as @a[scores={blue_terracotta=1..}] run scoreboard players reset @s blue_terracotta
 execute as @a[scores={blue_wall_banner=1..}] run scoreboard players reset @s blue_wall_banner
 execute as @a[scores={blue_wool=1..}] run scoreboard players reset @s blue_wool
@@ -192,6 +194,9 @@ execute as @a[scores={crimson_planks=1..}] run scoreboard players reset @s crims
 execute as @a[scores={crimson_pressure_plate=1..}] run scoreboard players reset @s crimson_pressure_plate
 execute as @a[scores={crimson_roots=1..}] run scoreboard players reset @s crimson_roots
 execute as @a[scores={crimson_stem=1..}] run scoreboard players reset @s crimson_stem
+execute as @a[scores={crimson_sign=1..}] run scoreboard players reset @s crimson_sign
+execute as @a[scores={crimson_stairs=1..}] run scoreboard players reset @s crimson_stairs
+execute as @a[scores={crimson_slab=1..}] run scoreboard players reset @s crimson_slab
 execute as @a[scores={crimson_trapdoor=1..}] run scoreboard players reset @s crimson_trapdoor
 execute as @a[scores={crimson_wall_sign=1..}] run scoreboard players reset @s crimson_wall_sign
 execute as @a[scores={crying_obsidian=1..}] run scoreboard players reset @s crying_obsidian
@@ -216,13 +221,13 @@ execute as @a[scores={cyan_stained_glass_pane=1..}] run scoreboard players reset
 execute as @a[scores={cyan_terracotta=1..}] run scoreboard players reset @s cyan_terracotta
 execute as @a[scores={cyan_wall_banner=1..}] run scoreboard players reset @s cyan_wall_banner
 execute as @a[scores={cyan_wool=1..}] run scoreboard players reset @s cyan_wool
-execute as @a[scores={cyan_wool=1..}] run scoreboard players reset @s cyan_wool
 #D
 execute as @a[scores={damaged_anvil=1..}] run scoreboard players reset @s damaged_anvil
 execute as @a[scores={dandelion=1..}] run scoreboard players reset @s dandelion
 execute as @a[scores={dark_oak_button=1..}] run scoreboard players reset @s dark_oak_button
 execute as @a[scores={dark_oak_door=1..}] run scoreboard players reset @s dark_oak_door
 execute as @a[scores={dark_oak_fence=1..}] run scoreboard players reset @s dark_oak_fence
+execute as @a[scores={dark_oak_fence_gate=1..}] run scoreboard players reset @s dark_oak_fence_gate
 execute as @a[scores={dark_oak_leaves=1..}] run scoreboard players reset @s dark_oak_leaves
 execute as @a[scores={dark_oak_log=1..}] run scoreboard players reset @s dark_oak_log
 execute as @a[scores={dark_oak_planks=1..}] run scoreboard players reset @s dark_oak_planks
@@ -242,11 +247,11 @@ execute as @a[scores={dead_brain_coral=1..}] run scoreboard players reset @s dea
 execute as @a[scores={dead_brain_coral_block=1..}] run scoreboard players reset @s dead_brain_coral_block
 execute as @a[scores={dead_brain_coral_fan=1..}] run scoreboard players reset @s dead_brain_coral_fan
 execute as @a[scores={dead_brain_coral_wall_fan=1..}] run scoreboard players reset @s dead_brain_coral_wall_fan
+execute as @a[scores={dead_bush=1..}] run scoreboard players reset @s dead_bush
 execute as @a[scores={dead_bubble_coral=1..}] run scoreboard players reset @s dead_bubble_coral
 execute as @a[scores={dead_bubble_coral_block=1..}] run scoreboard players reset @s dead_bubble_coral_block
 execute as @a[scores={dead_bubble_coral_fan=1..}] run scoreboard players reset @s dead_bubble_coral_fan
 execute as @a[scores={dead_bubble_coral_wall_fan=1..}] run scoreboard players reset @s dead_bubble_coral_wall_fan
-execute as @a[scores={dead_bush=1..}] run scoreboard players reset @s dead_bush
 execute as @a[scores={dead_fire_coral=1..}] run scoreboard players reset @s dead_fire_coral
 execute as @a[scores={dead_fire_coral_block=1..}] run scoreboard players reset @s dead_fire_coral_block
 execute as @a[scores={dead_fire_coral_fan=1..}] run scoreboard players reset @s dead_fire_coral_fan
@@ -267,6 +272,7 @@ execute as @a[scores={deepslate_bricks=1..}] run scoreboard players reset @s dee
 execute as @a[scores={deepslate_coal_ore=1..}] run scoreboard players reset @s deepslate_coal_ore
 execute as @a[scores={deepslate_copper_ore=1..}] run scoreboard players reset @s deepslate_copper_ore
 execute as @a[scores={deepslate_diamond_ore=1..}] run scoreboard players reset @s deepslate_diamond_ore
+execute as @a[scores={deepslate_emerald_ore=1..}] run scoreboard players reset @s deepslate_emerald_ore
 execute as @a[scores={deepslate_gold_ore=1..}] run scoreboard players reset @s deepslate_gold_ore
 execute as @a[scores={deepslate_iron_ore=1..}] run scoreboard players reset @s deepslate_iron_ore
 execute as @a[scores={deepslate_lapis_ore=1..}] run scoreboard players reset @s deepslate_lapis_ore
@@ -298,6 +304,7 @@ execute as @a[scores={enchanting_table=1..}] run scoreboard players reset @s enc
 execute as @a[scores={end_rod=1..}] run scoreboard players reset @s end_rod
 execute as @a[scores={end_stone=1..}] run scoreboard players reset @s end_stone
 execute as @a[scores={end_stone_brick_slab=1..}] run scoreboard players reset @s end_stone_brick_slab
+execute as @a[scores={end_stone_brick_stairs=1..}] run scoreboard players reset @s end_stone_brick_stairs
 execute as @a[scores={end_stone_brick_wall=1..}] run scoreboard players reset @s end_stone_brick_wall
 execute as @a[scores={end_stone_bricks=1..}] run scoreboard players reset @s end_stone_bricks
 execute as @a[scores={ender_chest=1..}] run scoreboard players reset @s ender_chest
@@ -384,6 +391,7 @@ execute as @a[scores={infested_stone=1..}] run scoreboard players reset @s infes
 execute as @a[scores={infested_stone_bricks=1..}] run scoreboard players reset @s infested_stone_bricks
 execute as @a[scores={iron_bars=1..}] run scoreboard players reset @s iron_bars
 execute as @a[scores={iron_block=1..}] run scoreboard players reset @s iron_block
+execute as @a[scores={iron_door=1..}] run scoreboard players reset @s iron_door
 execute as @a[scores={iron_ore=1..}] run scoreboard players reset @s iron_ore
 execute as @a[scores={iron_trapdoor=1..}] run scoreboard players reset @s iron_trapdoor
 #J
@@ -450,7 +458,6 @@ execute as @a[scores={light_weighted_pressure_plate=1..}] run scoreboard players
 execute as @a[scores={lightning_rod=1..}] run scoreboard players reset @s lightning_rod
 execute as @a[scores={lilac=1..}] run scoreboard players reset @s lilac
 execute as @a[scores={lily_of_the_valley=1..}] run scoreboard players reset @s lily_of_the_valley
-execute as @a[scores={lily_pad=1..}] run scoreboard players reset @s lily_pad
 execute as @a[scores={lily_pad=1..}] run scoreboard players reset @s lily_pad
 execute as @a[scores={lime_banner=1..}] run scoreboard players reset @s lime_banner
 execute as @a[scores={lime_bed=1..}] run scoreboard players reset @s lime_bed
@@ -810,6 +817,7 @@ execute as @a[scores={stonecutter=1..}] run scoreboard players reset @s stonecut
 execute as @a[scores={stripped_acacia_log=1..}] run scoreboard players reset @s stripped_acacia_log
 execute as @a[scores={stripped_acacia_wood=1..}] run scoreboard players reset @s stripped_acacia_wood
 execute as @a[scores={stripped_birch_log=1..}] run scoreboard players reset @s stripped_birch_log
+execute as @a[scores={stripped_birch_wood=1..}] run scoreboard players reset @s stripped_birch_wood
 execute as @a[scores={stripped_crimson_hyphae=1..}] run scoreboard players reset @s stripped_crimson_hyphae
 execute as @a[scores={stripped_crimson_stem=1..}] run scoreboard players reset @s stripped_crimson_stem
 execute as @a[scores={stripped_dark_oak_log=1..}] run scoreboard players reset @s stripped_dark_oak_log
@@ -863,6 +871,7 @@ execute as @a[scores={warped_planks=1..}] run scoreboard players reset @s warped
 execute as @a[scores={warped_pressure_plate=1..}] run scoreboard players reset @s warped_pressure_plate
 execute as @a[scores={warped_roots=1..}] run scoreboard players reset @s warped_roots
 execute as @a[scores={warped_sign=1..}] run scoreboard players reset @s warped_sign
+execute as @a[scores={warped_slab=1..}] run scoreboard players reset @s warped_slab
 execute as @a[scores={warped_stairs=1..}] run scoreboard players reset @s warped_stairs
 execute as @a[scores={warped_stem=1..}] run scoreboard players reset @s warped_stem
 execute as @a[scores={warped_trapdoor=1..}] run scoreboard players reset @s warped_trapdoor

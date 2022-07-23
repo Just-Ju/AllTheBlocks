@@ -2,7 +2,7 @@
  # load.mcfunction
  # 
  #
- # Created by .Cammo
+ # Created by .Cammo&Ju
 ##
 
 scoreboard objectives add mined_blocks dummy 
@@ -19,6 +19,7 @@ scoreboard objectives add acacia_leaves minecraft.mined:minecraft.acacia_leaves
 scoreboard objectives add acacia_log minecraft.mined:minecraft.acacia_log
 scoreboard objectives add acacia_planks minecraft.mined:minecraft.acacia_planks
 scoreboard objectives add acacia_pressure_plate minecraft.mined:minecraft.acacia_pressure_plate
+scoreboard objectives add acacia_sapling minecraft.mined:minecraft.acacia_sapling
 scoreboard objectives add acacia_sign minecraft.mined:minecraft.acacia_sign
 scoreboard objectives add acacia_slab minecraft.mined:minecraft.acacia_slab
 scoreboard objectives add acacia_stairs minecraft.mined:minecraft.acacia_stairs
@@ -30,7 +31,7 @@ scoreboard objectives add allium minecraft.mined:minecraft.allium
 scoreboard objectives add amethyst_block minecraft.mined:minecraft.amethyst_block 
 scoreboard objectives add amethyst_cluster minecraft.mined:minecraft.amethyst_cluster 
 scoreboard objectives add ancient_debris minecraft.mined:minecraft.ancient_debris 
-scoreboard objectives add andesite minecraft.mined:minecraft.acacia_wood 
+scoreboard objectives add andesite minecraft.mined:minecraft.andesite 
 scoreboard objectives add andesite_slab minecraft.mined:minecraft.andesite_slab 
 scoreboard objectives add andesite_stairs minecraft.mined:minecraft.andesite_stairs 
 scoreboard objectives add andesite_wall minecraft.mined:minecraft.andesite_slab 
@@ -98,6 +99,7 @@ scoreboard objectives add blue_ice minecraft.mined:minecraft.blue_ice
 scoreboard objectives add blue_orchid minecraft.mined:minecraft.blue_orchid
 scoreboard objectives add blue_shulker_box minecraft.mined:minecraft.blue_shulker_box
 scoreboard objectives add blue_stained_glass minecraft.mined:minecraft.blue_stained_glass
+scoreboard objectives add blue_stained_glass_pane minecraft.mined:minecraft.blue_stained_glass_pane
 scoreboard objectives add blue_terracotta minecraft.mined:minecraft.blue_terracotta
 scoreboard objectives add blue_wall_banner minecraft.mined:minecraft.blue_wall_banner
 scoreboard objectives add blue_wool minecraft.mined:minecraft.blue_wool
@@ -198,6 +200,9 @@ scoreboard objectives add crimson_planks minecraft.mined:minecraft.crimson_plank
 scoreboard objectives add crimson_pressure_plate minecraft.mined:minecraft.crimson_pressure_plate
 scoreboard objectives add crimson_roots minecraft.mined:minecraft.crimson_roots
 scoreboard objectives add crimson_stem minecraft.mined:minecraft.crimson_stem
+scoreboard objectives add crimson_sign minecraft.mined:minecraft.crimson_sign
+scoreboard objectives add crimson_slab minecraft.mined:minecraft.crimson_slab
+scoreboard objectives add crimson_stairs minecraft.mined:minecraft.crimson_stairs
 scoreboard objectives add crimson_trapdoor minecraft.mined:minecraft.crimson_trapdoor
 scoreboard objectives add crimson_wall_sign minecraft.mined:minecraft.crimson_wall_sign
 scoreboard objectives add crying_obsidian minecraft.mined:minecraft.crying_obsidian
@@ -229,6 +234,7 @@ scoreboard objectives add dandelion minecraft.mined:minecraft.dandelion
 scoreboard objectives add dark_oak_button minecraft.mined:minecraft.dark_oak_button
 scoreboard objectives add dark_oak_door minecraft.mined:minecraft.dark_oak_door
 scoreboard objectives add dark_oak_fence minecraft.mined:minecraft.dark_oak_fence
+scoreboard objectives add dark_oak_fence_gate minecraft.mined:minecraft.dark_oak_fence_gate
 scoreboard objectives add dark_oak_leaves minecraft.mined:minecraft.dark_oak_leaves
 scoreboard objectives add dark_oak_log minecraft.mined:minecraft.dark_oak_log
 scoreboard objectives add dark_oak_planks minecraft.mined:minecraft.dark_oak_planks
@@ -273,6 +279,7 @@ scoreboard objectives add deepslate_bricks minecraft.mined:minecraft.deepslate_b
 scoreboard objectives add deepslate_coal_ore minecraft.mined:minecraft.deepslate_coal_ore
 scoreboard objectives add deepslate_copper_ore minecraft.mined:minecraft.deepslate_copper_ore
 scoreboard objectives add deepslate_diamond_ore minecraft.mined:minecraft.deepslate_diamond_ore
+scoreboard objectives add deepslate_emerald_ore minecraft.mined:minecraft.deepslate_emerald_ore
 scoreboard objectives add deepslate_gold_ore minecraft.mined:minecraft.deepslate_gold_ore
 scoreboard objectives add deepslate_iron_ore minecraft.mined:minecraft.deepslate_iron_ore
 scoreboard objectives add deepslate_lapis_ore minecraft.mined:minecraft.deepslate_lapis_ore
@@ -304,6 +311,7 @@ scoreboard objectives add enchanting_table minecraft.mined:minecraft.enchanting_
 scoreboard objectives add end_rod minecraft.mined:minecraft.end_rod
 scoreboard objectives add end_stone minecraft.mined:minecraft.end_stone
 scoreboard objectives add end_stone_brick_slab minecraft.mined:minecraft.end_stone_brick_slab
+scoreboard objectives add end_stone_brick_stairs minecraft.mined:minecraft.end_stone_brick_stairs
 scoreboard objectives add end_stone_brick_wall minecraft.mined:minecraft.end_stone_brick_wall
 scoreboard objectives add end_stone_bricks minecraft.mined:minecraft.end_stone_bricks
 scoreboard objectives add ender_chest minecraft.mined:minecraft.ender_chest
@@ -391,6 +399,7 @@ scoreboard objectives add infested_stone_bricks minecraft.mined:minecraft.infest
 scoreboard objectives add iron_bars minecraft.mined:minecraft.iron_bars
 scoreboard objectives add iron_block minecraft.mined:minecraft.iron_block
 scoreboard objectives add iron_ore minecraft.mined:minecraft.iron_ore
+scoreboard objectives add iron_door minecraft.mined:minecraft.iron_door
 scoreboard objectives add iron_trapdoor minecraft.mined:minecraft.iron_trapdoor
 #J
 scoreboard objectives add jack_o_lantern minecraft.mined:minecraft.jack_o_lantern
@@ -456,7 +465,6 @@ scoreboard objectives add light_weighted_pressure_plate minecraft.mined:minecraf
 scoreboard objectives add lightning_rod minecraft.mined:minecraft.lightning_rod
 scoreboard objectives add lilac minecraft.mined:minecraft.lilac
 scoreboard objectives add lily_of_the_valley minecraft.mined:minecraft.lily_of_the_valley
-scoreboard objectives add lily_pad minecraft.mined:minecraft.lily_pad
 scoreboard objectives add lily_pad minecraft.mined:minecraft.lily_pad
 scoreboard objectives add lime_banner minecraft.mined:minecraft.lime_banner
 scoreboard objectives add lime_bed minecraft.mined:minecraft.lime_bed
@@ -816,6 +824,7 @@ scoreboard objectives add stonecutter minecraft.mined:minecraft.stonecutter
 scoreboard objectives add stripped_acacia_log minecraft.mined:minecraft.stripped_acacia_log
 scoreboard objectives add stripped_acacia_wood minecraft.mined:minecraft.stripped_acacia_wood
 scoreboard objectives add stripped_birch_log minecraft.mined:minecraft.stripped_birch_log
+scoreboard objectives add stripped_birch_wood minecraft.mined:minecraft.stripped_birch_wood
 scoreboard objectives add stripped_crimson_hyphae minecraft.mined:minecraft.stripped_crimson_hyphae
 scoreboard objectives add stripped_crimson_stem minecraft.mined:minecraft.stripped_crimson_stem
 scoreboard objectives add stripped_dark_oak_log minecraft.mined:minecraft.stripped_dark_oak_log
@@ -869,6 +878,7 @@ scoreboard objectives add warped_planks minecraft.mined:minecraft.warped_planks
 scoreboard objectives add warped_pressure_plate minecraft.mined:minecraft.warped_pressure_plate
 scoreboard objectives add warped_roots minecraft.mined:minecraft.warped_roots
 scoreboard objectives add warped_sign minecraft.mined:minecraft.warped_sign
+scoreboard objectives add warped_slab minecraft.mined:minecraft.warped_slab
 scoreboard objectives add warped_stairs minecraft.mined:minecraft.warped_stairs
 scoreboard objectives add warped_stem minecraft.mined:minecraft.warped_stem
 scoreboard objectives add warped_trapdoor minecraft.mined:minecraft.warped_trapdoor
