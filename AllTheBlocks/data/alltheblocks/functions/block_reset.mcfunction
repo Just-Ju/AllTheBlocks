@@ -508,6 +508,7 @@ execute as @a[scores={mangrove_trapdoor=1..}] run scoreboard players reset @s ma
 execute as @a[scores={mangrove_wall_sign=1..}] run scoreboard players reset @s mangrove_wall_sign
 execute as @a[scores={mangrove_wood=1..}] run scoreboard players reset @s mangrove_wood
 execute as @a[scores={medium_amethyst_bud=1..}] run scoreboard players reset @s medium_amethyst_bud
+execute as @a[scores={melon=1..}] run scoreboard players reset @s melon 
 execute as @a[scores={melon_stem=1..}] run scoreboard players reset @s melon_stem
 execute as @a[scores={moss_block=1..}] run scoreboard players reset @s moss_block
 execute as @a[scores={moss_carpet=1..}] run scoreboard players reset @s moss_carpet

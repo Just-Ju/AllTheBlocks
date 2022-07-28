@@ -7,6 +7,8 @@
 
 scoreboard objectives add mined_blocks dummy 
 scoreboard objectives modify mined_blocks displayname "Blocks Mined"
+scoreboard objectives add acacia_button minecraft.mined:minecraft.acacia_button 
+scoreboard objectives add acacia_door minecraft.mined:minecraft.acacia_door
 
 #A
 scoreboard objectives add acacia_button minecraft.mined:minecraft.acacia_button
@@ -513,6 +515,7 @@ scoreboard objectives add mangrove_trapdoor minecraft.mined:minecraft.mangrove_t
 scoreboard objectives add mangrove_wall_sign minecraft.mined:minecraft.mangrove_wall_sign
 scoreboard objectives add mangrove_wood minecraft.mined:minecraft.mangrove_wood
 scoreboard objectives add medium_amethyst_bud minecraft.mined:minecraft.medium_amethyst_bud
+scoreboard objectives add melon minecraft.mined:minecraft.melon
 scoreboard objectives add melon_stem minecraft.mined:minecraft.melon_stem
 scoreboard objectives add moss_block minecraft.mined:minecraft.moss_block
 scoreboard objectives add moss_carpet minecraft.mined:minecraft.moss_carpet
