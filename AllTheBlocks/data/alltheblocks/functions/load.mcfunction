@@ -806,7 +806,7 @@ scoreboard objectives add spruce_planks minecraft.mined:minecraft.spruce_planks
 scoreboard objectives add spruce_pressure_plate minecraft.mined:minecraft.spruce_pressure_plate
 scoreboard objectives add spruce_sapling minecraft.mined:minecraft.spruce_sapling
 scoreboard objectives add spruce_sign minecraft.mined:minecraft.spruce_sign
-scoreboard objectives add spruce_slab minecraft.mined:minecraft.spruce_sign
+scoreboard objectives add spruce_slab minecraft.mined:minecraft.spruce_slab
 scoreboard objectives add spruce_stairs minecraft.mined:minecraft.spruce_stairs
 scoreboard objectives add spruce_trapdoor minecraft.mined:minecraft.spruce_trapdoor
 scoreboard objectives add spruce_wall_sign minecraft.mined:minecraft.spruce_wall_sign
