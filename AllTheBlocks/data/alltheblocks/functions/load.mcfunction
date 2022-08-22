@@ -34,7 +34,7 @@ scoreboard objectives add ancient_debris minecraft.mined:minecraft.ancient_debri
 scoreboard objectives add andesite minecraft.mined:minecraft.andesite 
 scoreboard objectives add andesite_slab minecraft.mined:minecraft.andesite_slab 
 scoreboard objectives add andesite_stairs minecraft.mined:minecraft.andesite_stairs 
-scoreboard objectives add andesite_wall minecraft.mined:minecraft.andesite_slab 
+scoreboard objectives add andesite_wall minecraft.mined:minecraft.andesite_wall 
 scoreboard objectives add anvil minecraft.mined:minecraft.anvil 
 scoreboard objectives add attached_melon_stem minecraft.mined:minecraft.attached_melon_stem 
 scoreboard objectives add attached_pumpkin_stem minecraft.mined:minecraft.attached_pumpkin_stem
