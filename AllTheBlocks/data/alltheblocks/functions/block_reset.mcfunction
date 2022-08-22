@@ -28,7 +28,7 @@ execute as @a[scores={ancient_debris=1..}] run scoreboard players reset @s ancie
 execute as @a[scores={andesite=1..}] run scoreboard players reset @s andesite 
 execute as @a[scores={andesite_slab=1..}] run scoreboard players reset @s andesite_slab 
 execute as @a[scores={andesite_stairs=1..}] run scoreboard players reset @s andesite_stairs 
-execute as @a[scores={andesite_wall=1..}] run scoreboard players reset @s andesite_slab 
+execute as @a[scores={andesite_wall=1..}] run scoreboard players reset @s andesite_wall 
 execute as @a[scores={anvil=1..}] run scoreboard players reset @s anvil 
 execute as @a[scores={attached_melon_stem=1..}] run scoreboard players reset @s attached_melon_stem 
 execute as @a[scores={attached_pumpkin_stem=1..}] run scoreboard players reset @s attached_pumpkin_stem
